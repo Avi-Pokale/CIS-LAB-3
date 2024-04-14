@@ -1,0 +1,97 @@
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Lighter background color */
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px; /* Increased border radius */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #007bff; /* Changed heading color to blue */
+  background-color: #f8f9fa; /* Lighter background color */
+  padding: 10px; /* Added padding */
+  border-radius: 5px; /* Added border radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  margin-bottom: 20px; /* Added margin to create space between the heading and form */
+}
+
+form {
+  background-color: #e9ecef; /* Light gray background for the form */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+form input {
+  width: calc(100% - 22px);
+  padding: 12px; /* Increased input padding */
+  margin-bottom: 15px;
+  border: 1px solid #ced4da; /* Lighter border color */
+  border-radius: 5px; /* Slightly increased border radius */
+}
+
+form button {
+  background-color: #dc3545; /* Red button color */
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f8f9fa; /* Lighter background for list items */
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+li:hover {
+  transform: translateY(-5px); /* Slightly larger lift on hover */
+}
+
+li button {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 10px 20px; /* Increased padding */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #c82333;
+}
